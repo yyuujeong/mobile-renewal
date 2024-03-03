@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLD CHANNEL</title>
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/default,header,footer.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/modal.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">OLD CHANNEL</a></h1>
+        <p class="ham a"><a href="#"><img src="./img/icon_h.png" alt="ham_menu"></a></p>
+        <div class="icon a">
+            <ul class="im">
+                <li><a href="cart.html"><img src="./img/icon_c.png" alt="cart"></a></li>
+                <li><a href="login.html"><img src="./img/icon_m.png" alt="my"></a></li>
+            </ul>
+        </div>
+        <div class="modal_back"></div>
+        <nav class="menu f">
+            <!-- 검색창 부분 -->
+            <p class="icon_s"><img src="./img/icon_s.png" alt="search"></p>
+            <div class="search_form">
+                <input type="text" id="searchh">
+            </div>
+            
+            <!-- 카테고리 부분 -->
+            <ul>
+                <li><a href="all-product1.html">ALL PRODUCT</a></li>
+                <li><a href="javascript:;">STATIONERY<img class="arrow" src="./img/arrow-down.png" alt="arrow-down"></a>
+                    <ul class="sub f">
+                        <li class="li"><a href="stationery-d.html">diary &amp; planner</a></li>
+                        <li class="li"><a href="stationery-m.html">memopad</a></li>
+                        <li class="li"><a href="stationery-c.html">calendar</a></li>
+                        <li class="li"><a href="stationery-p.html">postcard</a></li>
+                    </ul>
+                </li>
+                <li><a href="phone.html">PHONE CASE</a></li>
+                <li><a href="sale1.html">SALE</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="notice.html">NOTICE</a></li>
+            </ul>
+            <div class="btn">
+                <button class="cross">&#735;</button>
+            </div>
+        </nav>
+    </header>
+    <form class="form" method="post">
+        <fieldset>
+            <legend class="f">LOGIN</legend>
+            <div class="login">
+                <input type="text" placeholder="아이디" autofocus>
+                <input type="password" placeholder="비밀번호">
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" checked id="chk1">
+                <label for="chk1">로그인 상태유지</label>
+            </div>
+            <button type="button" class="button button1">로그인
+            </button>
+            <div class="b_list">
+                <ul>
+                    <li><a href="member-form.html">회원가입</a></li>
+                    <li><a href="javascript:;">아이디찾기</a></li>
+                    <li><a href="javascript:;">비밀번호찾기</a></li>
+                </ul>
+            </div>
+        </fieldset>
+    </form>
+
+    <script src="./js/jquery-1.11.2.min.js"></script>
+    <script src="./js/oldchannel-main.js"></script>
+</body>
+</html>

@@ -1,0 +1,188 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap'); /* 로고글씨 */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Pretendard-Regular';
+    color: #3f3948;
+}
+a {
+    color: #3f3948;
+    text-decoration: none;
+    display: block;
+}
+.f {
+    font-family: 'Lato', sans-serif;
+}
+.red {
+    color: #ca2723;
+}
+.f2 {
+    font-family: 'Pretendard-Regular';
+}
+.black {
+    color: #3f3948;
+}
+
+
+/* header */
+header {
+    width: 100%;
+    height: 3.1rem;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    background: #fefce9;
+    z-index: 10000;
+}
+header h1 {
+    height: 3.1rem;
+    line-height: 1.9;
+    text-align: center;
+    width: 15rem;
+    margin: 0 auto;
+    font-size: 1.7rem;
+}
+header h1 > a {
+    color: #ca2723;
+    font-family: 'Heebo', sans-serif;
+}
+.ham {
+    position: absolute;
+    left: 1rem;
+    top: 0.6rem;
+}
+.icon {
+    position: absolute;
+    right: 1rem;
+    top: 0.6rem;
+}
+.icon li {
+    display: inline-block;
+}
+.a img {
+    width: 1.8rem;
+}
+
+.menu {
+    z-index: 10000;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    height: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    width: 70%;
+    left: -70%;
+}
+.icon_s {
+    position:absolute;
+    top: 6rem;
+    right: 2rem;
+    cursor: pointer;
+}
+.icon_s img {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+.search_form input {
+    width: 100%;
+    margin-top: 5rem;
+    font-size: 1.1rem;
+    border: none;
+    border-bottom: 3px solid #ca2723;
+    background: none;
+    outline: none;
+    padding-bottom: 0.3rem;
+}
+.menu > ul {
+    margin: 3rem 0;
+    height: 100%;
+}
+.menu li {
+    text-indent: 0.6rem;
+    margin-bottom: 2rem;
+}
+.menu > ul > li > a {
+    font-weight: bold;
+    position: relative;
+}
+.sub {
+    margin: 1.5rem 0 0 0.9rem;
+    display: none;
+}
+.sub li a {
+    display: block;
+}
+.arrow {
+    width: 0.9rem;
+    position: absolute;
+    right: 0.9rem;
+    top: 0.1rem;
+}
+.btn {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #fff;
+    position: absolute;
+    right: -2.4rem;
+    top: 2rem;
+}
+.cross {
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 1;
+    background: none;
+    top: 0.3rem;
+    color:#ca2723;
+    border:0;
+    cursor: pointer;
+    outline:none;
+    z-index:100000;
+    font-size: 4rem;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    text-align: center;
+}
+footer div {
+    width: 95%;
+    margin: 5rem auto 0;
+}
+footer ul li {
+    display: inline-block;
+}
+.footer li a {
+    display: block;
+    font-size: 0.75rem;
+    padding: 0.5rem 0.2rem;
+}
+.footer2 li {
+    display: inline-block;
+    font-size: 0.63rem;
+}
+.footer2 li:after {
+    content: "|";
+    padding-left: 0.3rem;
+}
+.footer2 li:last-child:after,
+.footer2 li:nth-child(4):after {
+    content: "";
+}
+.footer3 li {
+    display: block;
+    font-size: 0.65rem;
+    font-weight: bold;
+    padding: 0.9rem 0 2.5rem 0;
+}

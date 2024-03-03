@@ -1,0 +1,75 @@
+@charset "utf-8";
+#join {
+  width: 100%;
+  margin-top: 7rem;
+}
+fieldset {
+  width: 90%;
+  margin: 0 auto;
+}
+fieldset legend {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 auto 3rem;
+}
+.all label {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  float: left;
+  margin-bottom: 0.2rem;
+}
+.all > input {
+  display: block;
+  clear: both;
+  width: 100%;
+  height: 2rem;
+  margin: 0 0 1.25rem;
+  border: 1px solid #b5b5b5;
+  box-sizing: border-box;
+}
+.d {
+  width: 0.3rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background: #ca2723;
+  display: inline-block;
+  margin: 0 0 0.2rem 0.3rem;
+}
+.j {
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 0.3rem;
+}
+.j > a {
+  color: #ca2723;
+}
+.in {
+  clear: both;
+}
+.pp {
+  display: flex;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+.submit {
+  display: inline-block;
+  border: 1px solid #3f3948;
+  cursor: pointer;
+  padding: 0.6rem;
+  width: 50%;
+  font-family: "Pretendard-Regular";
+  font-size: 0.9rem;
+  text-align: center;
+}
+.btn1 {
+  background: #fff;
+  color: #3f3948;
+}
+.btn2 {
+  color: #fffdf5;
+  background: #3f3948;
+}
+.btn2:hover {
+  background: rgba(0, 0, 0, 0.8);
+}

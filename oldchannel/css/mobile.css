@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* 메인 슬라이드 */
+#main_slide {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 3rem;
+    overflow: hidden;
+}
+.ms {
+    position: relative;
+    left: 0;
+    width: 400%;
+}
+.ms li {
+    width: 25%;
+    float: left;
+}
+.ms img {
+    width: 100%;
+}
+
+/* 첫 번째 section : #section */
+#section {
+    width: 100%;
+    position: relative;
+    top: 1.5rem;
+}
+#section article {
+    width: 100%;
+}
+#section article ul li {
+    width: 50%;
+    float: left;
+}
+#section article ul li img {
+    width: 100%;
+}
+h2 {
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 4rem;
+}
+.bg {
+    width: 100%;
+    background: #fefce9;
+    text-align: center;
+}
+.line {
+    position: relative;
+    width: 2rem;
+    height: 0.15rem;
+    background: #3f3948;
+    margin: 0.5rem auto 0;
+}
+.about_img {
+    width: 90%;
+    margin: 3.1rem auto 0;
+}
+.about_img img {
+    width: 100%;
+}
+.bgp {
+    height: 10rem;
+}
+.wel {
+    font-weight: bold;
+    margin: 0.9rem 0 1.25rem;
+}
+
+.mimg {
+    position: relative;
+    left: 0;
+    top: 3rem;
+    display: flex;
+    flex-flow: wrap;
+    width: 95%;
+    margin: 0 auto;
+}
+.mimg li {
+    display: none;
+}
+.mimg a {
+    display: block;
+    font-size: 0.7rem;
+    color: #ca2723; 
+    width: 95%;
+    margin: 0 auto 2rem;
+}
+.left {
+    margin-top: 0.6rem;
+} /* 할인제품 */
+.left2 {
+    margin-top: 0.6rem;
+} /* 기본제품 */
+span {
+    display: inline-block;
+}
+.span {
+    margin-top: 0.6rem;
+}
+.span1 {
+    color: #b5b5b5;
+    margin-right: 0.5rem;
+} /* 할인제품 */
+.more {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 6rem;
+    margin: 5rem 0;
+    color: #3f3948;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+}
+
+/* 두 번째 section : #section2 */
+.iimg {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.iimg a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font: 0.8rem Lato;
+    border: 2px solid #fff;
+    border-radius: 2rem;
+    padding: 0.6rem;
+    width: 5.5rem;
+    height: 2.5rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.5s ease;
+    animation: fade 1s;
+}
+.iimg a:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+.iimg img {
+    width: 100%;
+}

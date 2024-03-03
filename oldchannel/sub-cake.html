@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLD CHANNEL</title>
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/default,header,footer.css">
+    <link rel="stylesheet" href="./css/sub-detail_page.css">
+    <link rel="stylesheet" href="./css/modal.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">OLD CHANNEL</a></h1>
+        <p class="ham a"><a href="#"><img src="./img/icon_h.png" alt="ham_menu"></a></p>
+        <div class="icon a">
+            <ul class="im">
+                <li><a href="cart.html"><img src="./img/icon_c.png" alt="cart"></a></li>
+                <li><a href="login.html"><img src="./img/icon_m.png" alt="my"></a></li>
+            </ul>
+        </div>
+        <div class="modal_back"></div>
+        <nav class="menu f">
+            <!-- 검색창 부분 -->
+            <p class="icon_s"><img src="./img/icon_s.png" alt="search"></p>
+            <div class="search_form">
+                <input type="text" id="searchh">
+            </div>
+            
+            <!-- 카테고리 부분 -->
+            <ul>
+                <li><a href="all-product1.html">ALL PRODUCT</a></li>
+                <li><a href="javascript:;">STATIONERY<img class="arrow" src="./img/arrow-down.png" alt="arrow-down"></a>
+                    <ul class="sub f">
+                        <li class="li"><a href="stationery-d.html">diary &amp; planner</a></li>
+                        <li class="li"><a href="stationery-m.html">memopad</a></li>
+                        <li class="li"><a href="stationery-c.html">calendar</a></li>
+                        <li class="li"><a href="stationery-p.html">postcard</a></li>
+                    </ul>
+                </li>
+                <li><a href="phone.html">PHONE CASE</a></li>
+                <li><a href="sale1.html">SALE</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="notice.html">NOTICE</a></li>
+            </ul>
+            <div class="btn">
+                <button class="cross">&#735;</button>
+            </div>
+        </nav>
+    </header>
+    <div class="second">
+        <div class="second_in">
+            <img src="./img/mcake.jpg" alt="cake">
+            <ul class="sub_sale f">
+                <li class="red">[10% SALE]</li>
+                <li class="red">GROOVY DAYS Postcard - Home made</li>
+                <li><del>KRW 1,500</del></li>
+                <li><span>KRW 1,350</span></li>
+            </ul>
+        </div>
+        <div class="wrapper">
+            <div>
+                <form>
+                    <input type="button" class="minus mp" value="-">
+                    <input type="text" class="mpbox" name="amount" value=1>
+                    <input type="button" class="plus mp" value="+">
+                </form>
+                <ul class="total f">
+                    <li>TOTAL : </li>
+                    <li>1,350</li>
+                </ul>
+            </div>
+            <div class="deliver">
+                <ul>
+                    <li><span>배송방법</span>택배</li>
+                    <li><span>배송비</span>2,500원 (도서산간 배송비 추가)</li>
+                </ul>
+            </div>
+            <div class="detail red">
+                <ul>
+                    <li><a href="javascript:;">상세정보</a></li>
+                    <li><a href="javascript:;">후기</a></li>
+                    <li><a href="javascript:;">Q&A</a></li>
+                </ul>
+            </div>
+            <div class="s_image">
+                <ul>
+                    <li><img src="./img/ca_1.jpg" alt="이미지"></li>
+                    <li><img src="./img/mcake.jpg" alt="이미지"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <form action="go.php" class="go">
+        <div class="g_in">
+            <input type="button" value="장바구니">
+            <input type="button" value="구매하기">
+        </div>
+    </form>
+    <footer>
+        <div>
+            <ul class="footer cf">
+                <li><a href="javascript:;">이용약관</a></li>
+                <li><a href="javascript:;">개인정보처리방침</a></li>
+            </ul>
+            <ul class="footer2">
+                <li>상호&#58; 올드채널</li>
+                <li>대표&#58; 김혜정</li>
+                <li>사업자등록번호&#58; 606&#45;36&#45;16968</li><br/>
+                <li>주소&#58; 부산광역시 사상구 백양대로300번길 23 청구아파트 101동 606호 올드채널</li><br/>
+                <li>전화&#58; 010&#45;3800&#45;4268</li>
+                <li>이메일&#58; iammaison@naver.com</li>
+            </ul>
+            <ul class="footer3">
+                <li>Copyright &copy; OLD CHANNEL. All rights reserved.</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="./js/jquery-1.11.2.min.js"></script>
+    <script src="./js/oldchannel-main.js"></script>
+</body>
+</html>

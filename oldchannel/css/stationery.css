@@ -1,0 +1,27 @@
+@charset "utf-8";
+.s_list {
+    width: 100%;
+    text-align: center;
+    margin-top: 3rem;
+}
+.s_list li {
+    cursor: pointer;
+    padding: 0.7rem 0;
+}
+.diary,
+.memopad,
+.calendar,
+.postcard {
+    font-weight: bold;
+}
+.mimg {
+    top: 2rem;
+}
+.a_list ul {
+    margin-top: 5rem;
+}
+
+.list-wrapper {
+    width: 95%;
+    margin: 0 auto;
+}

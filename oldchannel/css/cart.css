@@ -1,0 +1,14 @@
+@charset "utf-8";
+#section {
+    width: 100%;
+    height: auto;
+}
+h2 {
+    position: absolute;
+    left: 1.25rem;
+    top: 7.5rem;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+}

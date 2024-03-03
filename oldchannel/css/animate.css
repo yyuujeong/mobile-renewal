@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* 반짝이는 효과 */
+.hover13:hover img {
+    opacity: 1;
+    animation: flash 1.5s;
+}
+@keyframes flash {
+    0% {opacity: 0.4;}
+    100% {opacity: 1;}
+}
+
+/* 스르륵 빛나는 효과 */
+.hover14 {
+    position: relative;
+}
+.hover14:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    transform: skewX(-25deg);
+}
+.hover14:hover:before {
+    animation: shine .75s;
+}
+@keyframes shine {
+    100% {left: 125%;}
+}
+
+/* 중심원에서 퍼져나가는 효과 */
+.hover15 {
+    position: relative;
+}
+.hover15:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%; /* 가운데서 퍼지게 */
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    display: block;
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 100%;
+    opacity: 0;
+}
+.hover15:hover:before {
+    animation: circle .75s;
+}
+@keyframes circle {
+    0% {opacity: 1;}
+    40% {opacity: 1;}
+    100% {
+    width: 200%;
+    height:200%;
+    opacity: 0;}
+}
+
+.animated {
+    animation-duration: 1s;
+}
+
+@keyframes fade {
+    0% {opacity: 0;}
+    50% {opacity: 0.5;}
+    100% {opacity: 1;}
+}
+
+.fadeInLeft {
+    animation-name: fadeInLeft;
+}
+@keyframes fadeInLeft {
+    0% {opacity: 0;
+        transform: translateX(-20px)}
+    100% {opacity: 1;
+        transform: translateX(0)}
+}
+
+/* 아래에서 위 */
+.fadeInUp {
+    animation-name: fadeInUp;
+}
+@keyframes fadeInUp {
+    0% {opacity: 0;
+        transform: translateY(20px)}
+    100% {opacity: 1;
+        transform: translateY(0)}
+}
+/* 위에서 아래 */
+.fadeInOut {
+    animation-name: fadeInOut
+}
+@keyframes fadeInOut {
+    0% {opacity: 0;
+        transform: translateY(0)}
+    100% {opacity: 1;
+        transform: translateY(20px)}
+} 
+
+.delay-05s {
+    animation-delay: 0.5s;
+}
+.delay-1s {
+    animation-delay: 1s;
+}
+
+/* 숨기는 css 시작 */
+.wp1, .wp2, .wp3, .wp4, .wp6, .wp7, .wp8 {
+    visibility: hidden;
+}
+/* 숨기는 css 종료 */
+.fadeInUp, .fadeInLeft, .fadeInOut {
+    visibility: visible;
+}

@@ -1,0 +1,23 @@
+@charset "utf-8";
+#section1 {
+    width: 90%;
+    margin: 7rem auto 0;
+}
+.about h2 {
+    text-align: center;
+    font-size: 1.2rem;
+}
+.about img {
+    width: 100%;
+    margin: 3.1rem 0 1.8rem;
+}
+.about p {
+    width: 100%;
+    font-size: 0.9rem;
+    line-height: 1.25rem;
+    text-align: center;
+    padding: 0 1rem;
+}
+.about span {
+    display: block;
+}
