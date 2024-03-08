@@ -3,7 +3,7 @@
 ### <https://yyuujeong.github.io/mobile-renewal/oldchannel/>
 
 ## :hammer_and_pick: 기술
-```HTML5``` ```css3``` ```JS``` ```jQuery```
+```HTML5``` ```CSS3``` ```JS``` ```jQuery```
 
 ## :card_index_dividers: 프로젝트 소개
 - 개인 모바일 리뉴얼
