@@ -1,4 +1,4 @@
-# 모바일 리뉴얼 - 올드채널
+# 올드채널
 
 ### <https://yyuujeong.github.io/mobile-renewal/oldchannel/>
 
