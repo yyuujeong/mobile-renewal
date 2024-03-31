@@ -36,6 +36,13 @@ $(function() {
       autoplayDisableOnInteraction: false
    });
 
+   // 애니메이션
+   $(".wp1").waypoint(
+      function () {
+         $(".wp1").addClass("animated fadeInUp");
+   }, {offset: "75%"}
+   );
+
    // 더보기
    $(".mimg li").slice(0, 4).show();
    $(".more").click(function(e){ 
