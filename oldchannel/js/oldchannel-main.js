@@ -1,12 +1,11 @@
 $(function() {
-   // 햄버거버튼 열기
+   // 햄버거버튼
    $(".ham").click(function() {
       $(".btn").show();
       $(".menu").animate({
          marginLeft:"70%"
       }, 300);
    });
-   // 햄버거버튼 닫기
    $(".btn").click(function() {
       $(".btn").hide();
       $(".menu").animate({
