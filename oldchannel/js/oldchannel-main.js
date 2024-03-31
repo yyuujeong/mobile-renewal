@@ -1,14 +1,20 @@
 $(function() {
-   //햄버거메뉴
-   $(".btn").hide();
+   // 햄버거버튼 열기
    $(".ham").click(function() {
       $(".btn").show();
       $(".menu").animate({
          marginLeft:"70%"
       }, 300);
    });
+   // 햄버거버튼 닫기
+   $(".btn").click(function() {
+      $(".btn").hide();
+      $(".menu").animate({
+         marginLeft:"0%"
+      }, 300);
+   });
 
-   // 메뉴상세
+   // 햄버거메뉴 상세
    $(".menu > ul > li > a").click(function() {
       if($(this).next().is(":visible")) {
          $(this).next().stop().slideUp(500);
@@ -21,14 +27,6 @@ $(function() {
       }
    });
 
-   // 메뉴종료
-   $(".btn").click(function() {
-      $(".btn").hide();
-      $(".menu").animate({
-         marginLeft:"0%"
-      }, 300);
-   });
-
    // 메인 이미지 슬라이드
    let swiper = new Swiper(".swiper-container", {
       pagination: ".swiper-pagination",   
@@ -38,25 +36,16 @@ $(function() {
       autoplayDisableOnInteraction: false
    });
 
-   //더보기
+   // 더보기
    $(".mimg li").slice(0, 4).show();
    $(".more").click(function(e){ 
       e.preventDefault();
       $(".mimg li:hidden").slice(0, 4).show();
    });
 
-   //모달
-   function modalOn() {
-      $(".modal_back").addClass("back_on");
-   }
-   function modalOff() {
-      $(".modal_back").removeClass("back_on");
-   }
-   $(".ham").click(function() {
-      modalOn();
-   });
-   $(".cross").click(function() {
-      modalOff();
+   // 모달
+   $(".ham, .cross").click(function() {
+      $(".modal_back").toggleClass("back_on");
    });
 
    $(".search_form").keydown(function(e) {
