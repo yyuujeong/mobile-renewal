@@ -1,7 +1,5 @@
 let sell_price;
-
 sell_price = document.form.sell_price.value;
-console.log(sell_price);
 document.form.sum.value = Number(sell_price).toLocaleString();
 
 $(".plus").on("click", function() {

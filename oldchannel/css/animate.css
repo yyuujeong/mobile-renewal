@@ -110,7 +110,7 @@
 }
 
 /* 숨기는 css 시작 */
-.wp1, .wp2, .wp3, .wp4, .wp6, .wp7, .wp8 {
+.wp1 {
     visibility: hidden;
 }
 /* 숨기는 css 종료 */
