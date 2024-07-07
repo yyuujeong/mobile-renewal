@@ -2,6 +2,9 @@
 
 ### <https://yyuujeong.github.io/mobile-renewal/oldchannel/>
 
+## :date: 기간
+- 2022.03
+
 ## :hammer_and_pick: 기술
 ```HTML5``` ```CSS3``` ```jQuery```
 
