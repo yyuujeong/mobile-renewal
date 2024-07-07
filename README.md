@@ -2,6 +2,9 @@
 
 ### <https://yyuujeong.github.io/mobile-renewal/oldchannel/>
 
+<img width="300" alt="oc1" align="center" src="https://github.com/yyuujeong/mobile-renewal/assets/161145357/3d52c855-28d0-45a6-80f8-f18205a9afd2">
+<img width="300" alt="oc2" align="center" src="https://github.com/yyuujeong/mobile-renewal/assets/161145357/0006ca42-30a1-4c7d-ac10-c333fb8af87c">
+
 ## :date: 기간
 - 2022.03
 
